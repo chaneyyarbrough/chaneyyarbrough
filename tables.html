@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Athletic Wear Brands Page 1</title>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background-color: #ffe6f2;
+      font-family: Arial, sans-serif;
+      color: #5c214a;
+      text-align: center;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      color: #d63384;
+      font-size: 40px;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      color: #c2185b;
+    }
+
+    p {
+      font-size: 18px;
+    }
+
+    table {
+      width: 85%;
+      margin: 30px auto;
+      border-collapse: collapse;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    }
+
+    th, td {
+      border: 2px solid #ffffff;
+      padding: 15px;
+      font-size: 18px;
+    }
+
+    th {
+      background-color: #ffb3d9;
+      color: #7a1f52;
+    }
+
+    img {
+      width: 110px;
+      height: 110px;
+      object-fit: cover;
+      border-radius: 16px;
+      border: 3px solid white;
+    }
+
+    .row1 { background-color: #ffd6e8; }
+    .row2 { background-color: #ffdff2; }
+    .row3 { background-color: #f9d6ff; }
+    .row4 { background-color: #e7d6ff; }
+    .row5 { background-color: #ffe4d6; }
+    .row6 { background-color: #fff0d6; }
+
+    .nav-link a {
+      color: #c2185b;
+      font-weight: bold;
+      text-decoration: none;
+      background-color: white;
+      padding: 10px 18px;
+      border-radius: 20px;
+      border: 2px solid #ff99c8;
+    }
+
+    .nav-link a:hover {
+      background-color: #ffcae3;
+    }
+
+    footer {
+      margin-top: 30px;
+      font-size: 16px;
+      color: #8a3b68;
+    }
+
+    /* Adapted ribbon snippet from an external CSS ribbon example */
+    .wrapper {
+      margin: 30px auto;
+      width: 360px;
+      height: 180px;
+      background: #fff0f7;
+      border-radius: 14px;
+      box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+      position: relative;
+      text-align: center;
+      padding-top: 40px;
+      z-index: 90;
+    }
+
+    .ribbon-wrapper-pink {
+      width: 110px;
+      height: 110px;
+      overflow: hidden;
+      position: absolute;
+      top: -3px;
+      right: -3px;
+    }
+
+    .ribbon-pink {
+      font: bold 13px Arial, sans-serif;
+      color: white;
+      text-align: center;
+      transform: rotate(45deg);
+      position: relative;
+      padding: 8px 0;
+      left: -28px;
+      top: 24px;
+      width: 210px;
+      background-color: #ff66b2;
+      background-image: linear-gradient(#ff9ecf, #ff4fa3);
+      box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+    }
+
+    .ribbon-pink:before,
+    .ribbon-pink:after {
+      content: "";
+      border-top: 3px solid #cc2f7a;
+      border-left: 3px solid transparent;
+      border-right: 3px solid transparent;
+      position: absolute;
+      bottom: -3px;
+    }
+
+    .ribbon-pink:before { left: 0; }
+    .ribbon-pink:after { right: 0; }
+  </style>
+</head>
+<body>
+
+  <h1 id="top">Athletic Wear Brands</h1>
+
+  <div class="wrapper">
+    <div class="ribbon-wrapper-pink">
+      <div class="ribbon-pink">ATHLETIC WEAR</div>
+    </div>
+    <h2>Page 1 Favorite Brands</h2>
+    <p>This page highlights six popular athletic wear brands known for trendy and stylish activewear.</p>
+  </div>
+
+  <table>
+    <tr>
+      <th>Brand</th>
+      <th>Logo</th>
+      <th>Known For</th>
+    </tr>
+
+    <tr class="row1">
+      <td>Alo Yoga</td>
+      <td><img src="images/alo.jpg" alt="Alo Yoga logo"></td>
+      <td>Trendy matching sets and stylish workout looks</td>
+    </tr>
+
+    <tr class="row2">
+      <td>Lululemon</td>
+      <td><img src="images/lululemon.jpg" alt="Lululemon logo"></td>
+      <td>High quality leggings and athletic basics</td>
+    </tr>
+
+    <tr class="row3">
+      <td>Aritzia</td>
+      <td><img src="images/aritzia.jpg" alt="Aritzia logo"></td>
+      <td>Minimal athleisure and clean everyday style</td>
+    </tr>
+
+    <tr class="row4">
+      <td>Vuori</td>
+      <td><img src="images/vuori.jpg" alt="Vuori logo"></td>
+      <td>Soft fabrics and relaxed activewear pieces</td>
+    </tr>
+
+    <tr class="row5">
+      <td>Daily Drills</td>
+      <td><img src="images/dailydrills.jpg" alt="Daily Drills logo"></td>
+      <td>Cute sporty sets with a casual vibe</td>
+    </tr>
+
+    <tr class="row6">
+      <td>Splits59</td>
+      <td><img src="images/splits59.jpg" alt="Splits59 logo"></td>
+      <td>Luxury activewear with sleek sporty style</td>
+    </tr>
+  </table>
+
+  <p class="nav-link"><a href="tables2.html">Go to Page 2 More Athletic Wear Brands</a></p>
+  <p class="nav-link"><a href="#top">Return to Top</a></p>
+
+  <footer>
+    <p>&copy; 2026 Chaney Yarbrough</p>
+  </footer>
+
+</body>
+</html>
