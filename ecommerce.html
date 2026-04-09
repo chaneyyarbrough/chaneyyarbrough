@@ -1,0 +1,394 @@
+# ecommerce.html
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Glow Activewear</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fff7fb;
+      color: #4b2e39;
+      text-align: center;
+    }
+
+    #top {
+      position: absolute;
+      top: 0;
+    }
+
+    .banner {
+      position: relative;
+      width: 90%;
+      max-width: 1100px;
+      margin: 30px auto 20px auto;
+    }
+
+    .banner img {
+      width: 100%;
+      display: block;
+      border-radius: 18px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+    }
+
+    .banner-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: rgba(255,255,255,0.35);
+      border: 2px solid white;
+      color: white;
+      padding: 20px 35px;
+      border-radius: 14px;
+    }
+
+    .banner-text h1 {
+      margin: 0;
+      font-size: 2.8em;
+    }
+
+    .banner-text p {
+      margin: 10px 0 0 0;
+      font-size: 1.1em;
+    }
+
+    nav {
+      background: #ffffff;
+      border-top: 3px solid #f2b6d4;
+      border-bottom: 1px solid #ddd;
+      padding: 14px;
+      margin-bottom: 25px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #c06b98;
+      font-weight: bold;
+      margin: 0 20px;
+    }
+
+    h2 {
+      font-size: 2.2em;
+      margin-bottom: 10px;
+    }
+
+    .intro {
+      width: 80%;
+      margin: 0 auto 30px auto;
+      font-size: 1.05em;
+    }
+
+    .gallery {
+      width: 90%;
+      margin: auto;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 30px;
+      max-width: 1100px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+      overflow: hidden;
+      padding-bottom: 20px;
+    }
+
+    .card img {
+      width: 100%;
+      height: 260px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .card h3 {
+      margin: 15px 0 8px 0;
+    }
+
+    .card p {
+      margin: 0 15px 15px 15px;
+    }
+
+    .button {
+      display: inline-block;
+      background: #f2b6d4;
+      color: white;
+      text-decoration: none;
+      padding: 10px 18px;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+
+    .contact-link {
+      margin: 35px 0;
+    }
+
+    footer {
+      margin: 40px 0 20px 0;
+      font-size: 0.95em;
+    }
+
+    footer a {
+      color: #c06b98;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="top"></div>
+
+  <div class="banner">
+    <img src="images/banner.jpg" alt="Glow Activewear Banner">
+    <div class="banner-text">
+      <h1>Glow Activewear</h1>
+      <p>Cute comfy workout styles for every day</p>
+    </div>
+  </div>
+
+  <h2>Glow Activewear</h2>
+  <p class="intro">
+    Browse our featured workout pieces below and click each thumbnail to see the full size image.
+  </p>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="contact.html">Contact Me for Prices</a>
+  </nav>
+
+  <div class="gallery">
+
+    <div class="card">
+      <img src="images/thumb1.jpg" alt="Black Leggings">
+      <h3>Black Leggings</h3>
+      <p>Soft high waisted leggings perfect for workouts and errands.</p>
+      <a class="button" href="image1.html">View Full Size Image</a>
+    </div>
+
+    <div class="card">
+      <img src="images/thumb2.jpg" alt="White Sports Bra">
+      <h3>White Sports Bra</h3>
+      <p>A supportive and simple sports bra for everyday movement.</p>
+      <a class="button" href="image2.html">View Full Size Image</a>
+    </div>
+
+    <div class="card">
+      <img src="images/thumb3.jpg" alt="Pink Workout Set">
+      <h3>Pink Workout Set</h3>
+      <p>A matching pink set that is cute comfortable and trendy.</p>
+      <a class="button" href="image3.html">View Full Size Image</a>
+    </div>
+
+    <div class="card">
+      <img src="images/thumb4.jpg" alt="Oversized Sweatshirt">
+      <h3>Oversized Sweatshirt</h3>
+      <p>The perfect oversized sweatshirt for chilly mornings.</p>
+      <a class="button" href="image4.html">View Full Size Image</a>
+    </div>
+
+    <div class="card">
+      <img src="images/thumb5.jpg" alt="Tennis Dress">
+      <h3>Tennis Dress</h3>
+      <p>A flattering white tennis dress perfect for spring and summer.</p>
+      <a class="button" href="image5.html">View Full Size Image</a>
+    </div>
+
+    <div class="card">
+      <img src="images/thumb6.jpg" alt="White Sneakers">
+      <h3>White Sneakers</h3>
+      <p>Classic white sneakers that match every outfit.</p>
+      <a class="button" href="image6.html">View Full Size Image</a>
+    </div>
+
+  </div>
+
+  <div class="contact-link">
+    <a class="button" href="contact.html">Contact Me for Prices</a>
+  </div>
+
+  <footer>
+    <p>&copy; 2026 Glow Activewear</p>
+    <p><a href="#top">Back to Top</a></p>
+  </footer>
+
+</body>
+</html>
+```
+
+# image1.html through image6.html
+
+Use the same code below for all six image pages. Only change the title, image file, and caption.
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Black Leggings</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #fff7fb;
+      color: #4b2e39;
+      text-align: center;
+      margin: 0;
+      padding: 30px;
+    }
+
+    nav {
+      margin-bottom: 25px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #c06b98;
+      font-weight: bold;
+      margin: 0 15px;
+    }
+
+    figure {
+      background: white;
+      display: inline-block;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      max-width: 850px;
+    }
+
+    figure img {
+      width: 100%;
+      max-width: 750px;
+      border-radius: 10px;
+    }
+
+    figcaption {
+      margin-top: 15px;
+      font-size: 1.05em;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 20px;
+      background: #f2b6d4;
+      color: white;
+      text-decoration: none;
+      padding: 10px 18px;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="ecommerce.html">Back to Gallery</a>
+    <a href="contact.html">Contact Me for Prices</a>
+  </nav>
+
+  <h1>Black Leggings</h1>
+
+  <figure>
+    <img src="images/full1.jpg" alt="Black Leggings">
+    <figcaption>
+      These black leggings are stretchy comfortable and perfect for everyday wear.
+    </figcaption>
+  </figure>
+
+  <div>
+    <a class="button" href="contact.html">Contact Me for Prices</a>
+  </div>
+
+</body>
+</html>
+```
+
+For image2.html use White Sports Bra and images/full2.jpg.
+
+For image3.html use Pink Workout Set and images/full3.jpg.
+
+For image4.html use Oversized Sweatshirt and images/full4.jpg.
+
+For image5.html use Tennis Dress and images/full5.jpg.
+
+For image6.html use White Sneakers and images/full6.jpg.
+
+# contact.html
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Me for Prices</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #fff7fb;
+      color: #4b2e39;
+      text-align: center;
+      margin: 0;
+      padding: 30px;
+    }
+
+    .box {
+      background: white;
+      width: 85%;
+      max-width: 800px;
+      margin: auto;
+      padding: 30px;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+
+    iframe {
+      width: 100%;
+      height: 350px;
+      border: 0;
+      border-radius: 12px;
+      margin-top: 20px;
+    }
+
+    a {
+      text-decoration: none;
+      color: #c06b98;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="box">
+    <h1>Contact Me for Prices</h1>
+
+    <p><strong>Name:</strong> Chaney Yarbrough</p>
+    <p><strong>Email:</strong> glowactivewear@email.com</p>
+    <p><strong>Phone:</strong> 405-555-2486</p>
+    <p><strong>Address:</strong> Gaylord Family Oklahoma Memorial Stadium Norman Oklahoma</p>
+
+    <iframe
+      src="https://www.google.com/maps?q=Gaylord%20Family%20Oklahoma%20Memorial%20Stadium&output=embed">
+    </iframe>
+
+    <p style="margin-top: 25px;">
+      <a href="ecommerce.html">Back to Gallery</a>
+    </p>
+  </div>
+
+</body>
+</html>
+```
+
+# index.html link
+
+```html
+<p><a href="ecommerce.html">E Commerce Project</a></p>
+```
